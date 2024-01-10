@@ -1,0 +1,8 @@
+apiVersion: v2
+name: araki-ojt-3
+type: application
+version: 1.0.0
+dependencies:
+  - name: wordpress
+    version: "19.0.4"
+    repository: "https://charts.bitnami.com/bitnami"

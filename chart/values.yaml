@@ -1,0 +1,14 @@
+replicaCount: 1
+
+updateStrategy:
+  type: RollingUpdate
+
+service:
+  type: LoadBalancer
+  ports:
+    http: 80
+    https: 443
+  httpsTargetPort: https
+  nodePorts:
+    http: ""
+    https: ""
