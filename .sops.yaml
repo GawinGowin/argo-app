@@ -1,4 +1,3 @@
 creation_rules:
 # Encrypt using GCP KMS
-- path_regex: 'environment/(.*).yaml'
-  gcp_kms: projects/sreake-intern/locations/asia-northeast1/keyRings/storage-bucket-keyring-asia/cryptoKeys/storage-bucket-crypto-key-asia
+- gcp_kms: projects/sreake-intern/locations/asia-northeast1/keyRings/storage-bucket-keyring-asia/cryptoKeys/storage-bucket-crypto-key-asia
